@@ -1,0 +1,23 @@
+<mvc:View controllerName="calc.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m">
+
+    <Page id="page" title="{i18n>title}">
+        <FlexBox id="_IDGenFlexBox1" class="ne-flexbox1" justifyContent="Center" alignItems="Center">
+            <Input id="inputNumber1" type="Number" placeholder="Enter first number "/>
+        </FlexBox>
+        <FlexBox id="_IDGenFlexBox2" class="ne-flexbox1" justifyContent="Center" alignItems="Center">
+            <Input id="inputNumber2" type="Number" placeholder="Enter second number"/>
+        </FlexBox>
+        <FlexBox id="_IDGenFlexBox3" class="ne-flexbox1" justifyContent="Center" alignItems="Center">
+            <Button id="_IDGenButton1" text="Result" type="Accept" press="onPress" />
+        </FlexBox>
+        <FlexBox id="_IDGenFlexBox4" class="ne-flexbox1" justifyContent="Center" alignItems="Center">
+            <Input id="inputNumber3" type="Number" placeholder="Addition of Two Numbers are"/>
+        </FlexBox>
+    </Page>
+
+</mvc:View>
